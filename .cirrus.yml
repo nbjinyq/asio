@@ -7,7 +7,7 @@ env:
 
 task:
   install_script:
-    - pkg install -y autoconf automake
+    - pkg install -y m4 autoconf automake
   build_script:
     - cd asio
     - ./autogen.sh
